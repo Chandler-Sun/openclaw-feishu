@@ -1,6 +1,6 @@
 {
   "name": "@chandlersun-openclaw/feishu",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "description": "OpenClaw Feishu/Lark channel plugin",
   "license": "MIT",
@@ -9,6 +9,9 @@
     "src",
     "openclaw.plugin.json"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chandler-sun/openclaw-feishu.git"
@@ -50,7 +53,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.0.10",
-    "openclaw": "2026.1.24-2",
+    "openclaw": "2026.1.29",
     "tsx": "^4.21.0",
     "typescript": "^5.7.0"
   },
