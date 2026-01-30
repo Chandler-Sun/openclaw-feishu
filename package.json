@@ -39,7 +39,7 @@
       "order": 70
     },
     "install": {
-      "npmSpec": "@m1heng-clawd/feishu",
+      "npmSpec": "@chandlersun-openclaw/feishu",
       "localPath": ".",
       "defaultChoice": "npm"
     }
