@@ -18,7 +18,7 @@ importers:
       '@types/node':
         specifier: ^25.0.10
         version: 25.0.10
-      clawdbot:
+      openclaw:
         specifier: 2026.1.24-2
         version: 2026.1.24-2(@types/express@5.0.6)(devtools-protocol@0.0.1574117)(typescript@5.9.3)
       tsx:
@@ -1546,7 +1546,7 @@ packages:
     resolution: {integrity: sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==}
     engines: {node: '>=8'}
 
-  clawdbot@2026.1.24-2:
+  openclaw@2026.1.24-2:
     resolution: {integrity: sha512-vp1VZa9uQjdrqJpCe711NTSCyDsXavsL4YJdb2orzuW3qB8vQ+75r6o5QFlJMNoSqs1OdPmgbchjYxDq49/Mkw==}
     engines: {node: '>=22.12.0'}
     hasBin: true
@@ -4980,7 +4980,7 @@ snapshots:
   ci-info@4.3.1:
     optional: true
 
-  clawdbot@2026.1.24-2(@types/express@5.0.6)(devtools-protocol@0.0.1574117)(typescript@5.9.3):
+  openclaw@2026.1.24-2(@types/express@5.0.6)(devtools-protocol@0.0.1574117)(typescript@5.9.3):
     dependencies:
       '@agentclientprotocol/sdk': 0.13.1(zod@4.3.6)
       '@aws-sdk/client-bedrock': 3.975.0
